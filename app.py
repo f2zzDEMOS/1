@@ -41,7 +41,6 @@ def get_db():
     if 'db' not in g:
         g.db = sqlite3.connect(DB_PATH, timeout=5)
         g.db.row_factory = sqlite3.Row
-        # ✅ ИСПРАВЛЕНО: каждая PRAGMA отдельно
         g.db.execute('PRAGMA journal_mode=WAL;')
         g.db.execute('PRAGMA synchronous=NORMAL;')
         g.db.execute('PRAGMA cache_size=-4000;')
