@@ -1,2 +1,4 @@
 flask>=2.0.0
 werkzeug>=2.0.0
+customtkinter>=5.2.0
+requests>=2.31.0
