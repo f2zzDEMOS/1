@@ -1,0 +1,12 @@
+2026-05-24 21:47:54,258 [INFO] ✅ База данных инициализирована (WAL mode)
+2026-05-24 21:47:54,258 [INFO] 🚀 DemoChat Secure Server v0.3 запущен: http://0.0.0.0:5000
+ * Serving Flask app 'app'
+ * Debug mode: off
+2026-05-24 21:47:54,277 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://21.0.1.21:5000
+2026-05-24 21:47:54,277 [INFO] [33mPress CTRL+C to quit[0m
+2026-05-24 21:47:58,563 [INFO] 127.0.0.1 - - [24/May/2026 21:47:58] "GET /api/status HTTP/1.1" 200 -
+2026-05-24 21:48:02,354 [INFO] ✅ Регистрация: @testuser
+2026-05-24 21:48:02,355 [INFO] 127.0.0.1 - - [24/May/2026 21:48:02] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
